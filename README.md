@@ -1,6 +1,6 @@
-# ORDINOX Desk Therapist
+# Ordinox Desk Lite
 
-**Local-first Windows desktop practice management software for therapists and mental-health professionals.**
+**Lightweight local-first Windows desktop application for client and small-business management.**
 
 [English](README.md) · [Ελληνικά](README_GR.md)
 
@@ -8,347 +8,202 @@
 
 ## Overview
 
-ORDINOX Desk Therapist is a Windows desktop application designed to support the day-to-day organization of a private therapy or mental-health practice.
+Ordinox Desk Lite is a lightweight Windows desktop application designed for small businesses that need a simple and practical way to manage clients, products or services, prices, history, revenue and everyday business information from a single interface.
 
-It brings together client management, scheduling, session history, attendance, notes, documents, financial tracking, statistics, exports, backup and optional practice-management tools in one focused desktop environment.
+The application is intentionally focused and easy to use. It is designed for businesses that need more organization than spreadsheets or scattered notes, without the complexity of a large business-management system.
 
-The application follows a **local-first approach**, with normal practice data stored and managed locally on the user's Windows device.
+Typical use cases can include:
+
+- Retail shops
+- Service-based businesses
+- Small local businesses
+- Appointment-based businesses
+- Businesses that keep client histories
+- Businesses that need simple product, service and revenue tracking
+
+The optical-store workflow shown in some screenshots is **one example configuration**. The core application concept is broader and can be adapted to different business needs.
+
+The application follows a **local-first approach**, with normal business data stored and managed locally on the user's Windows device.
 
 It is designed for **Windows PCs and Windows tablets**, with **English and Greek interface support**.
 
 > **Portfolio showcase:** This public repository presents the application and its interface. The production source code is maintained privately and is not published here.
 
-> **Demo data:** All names, phone numbers, notes, appointments and other personal information visible in the screenshots are fictitious demonstration data created exclusively for presentation purposes.
-
----
-
-## Today
-
-The Today view provides a focused overview of the working day.
-
-Depending on enabled features and available data, it can provide:
-
-- Upcoming sessions
-- Daily activity
-- Quick access to common actions
-- Practice reminders
-- Backup-health information
-- Optional follow-up information
-
-![ORDINOX Desk Therapist - Today](assets/screenshots/01-today.png)
-
----
-
-## Calendar & Scheduling
-
-The Calendar provides a visual overview of scheduled sessions and supports both one-off appointments and recurring schedules.
-
-Scheduling tools include:
-
-- One-off sessions
-- Recurring schedules
-- Session status tracking
-- Multiple recurrence patterns
-- Working Hours guidance
-- Time Off
-- Waitlist
-- Calendar export
-- Historical recurring-session preservation
-
-Working Hours are **advisory rather than restrictive**.
-
-A session can still be booked outside the configured Working Hours. When warnings are enabled, ORDINOX can notify the user and allow them to continue with the booking.
-
-![ORDINOX Desk Therapist - Calendar](assets/screenshots/02-calendar.png)
+> **Demo data:** All names, client information, prices, records and other information visible in the screenshots are fictitious demonstration data.
 
 ---
 
 ## Client Management
 
-ORDINOX uses a desktop split-view interface that allows the professional to browse the Client List while working with the selected Client File.
+![Ordinox Desk Lite Clients](assets/screenshots/clients.png)
 
-The application supports:
+Ordinox Desk Lite provides a simple client-management workflow designed for fast day-to-day use.
 
-- Individual Clients
-- Group Clients
-- Active and inactive Clients
-- Search and filtering
-- Structured Client Files
-- Client-specific history and records
+Features include:
 
-![ORDINOX Desk Therapist - Clients](assets/screenshots/03-clients.png)
+- New client creation
+- Client editing
+- Client search
+- Organized client list
+- Quick access to client records
+- Contact and client-related information
+- Previous activity and history
+- Information connected to products or services
 
----
-
-## Client File
-
-Each Client has a structured workspace containing the information and tools required for ongoing practice management.
-
-Depending on the Client and the optional features enabled, the Client File can include:
-
-- Session schedules
-- Session history
-- Client notes
-- Session notes
-- Managed documents
-- Attendance statistics
-- Client Timeline
-- PDF output
-- Optional Treatment Plans and Goals
-- Optional Tasks / Follow-ups
-
-![ORDINOX Desk Therapist - Client File](assets/screenshots/04-client-file.png)
+The goal is to keep useful client information in one place instead of relying on separate spreadsheets, documents or paper notes.
 
 ---
 
-## Group Clients
+## Client-Specific Information
 
-Groups are managed as Client entities and can be linked to existing Individual Clients.
+![Ordinox Desk Lite Client Information](assets/screenshots/client-prescription.png)
 
-This allows group schedules and history to remain organized while Individual Client records continue to exist independently.
+Different types of businesses may need to store different information about their clients.
 
-Group members use their linked Individual Client records as the source of truth for their personal information.
+Ordinox Desk Lite can be adapted around structured client-specific information depending on the business workflow.
 
-![ORDINOX Desk Therapist - Group Client](assets/screenshots/05-group-client.png)
+In this showcase, an optical-store configuration is used as an example and includes fields such as:
 
----
+- SPH
+- CYL
+- AXE
+- PD
+- ADD
+- Prescription dates
+- Glasses-related information
+- Contact lens-related information
 
-## Session History & Attendance
+These fields demonstrate one possible specialized use of the application.
 
-ORDINOX maintains structured session history together with attendance-related information.
-
-Attendance information can include:
-
-- Completed sessions
-- Client cancellations
-- Therapist cancellations
-- No-shows
-- Lateness
-
-Historical recurring occurrences are preserved so that later schedule changes do not silently rewrite the previous session history.
-
-![ORDINOX Desk Therapist - Attendance](assets/screenshots/06-attendance.png)
+Other configurations can use different client-specific information depending on the type of shop, service or professional workflow.
 
 ---
 
-## Financial Overview
+## Client History
 
-The Financial Overview provides a focused view of session-fee information.
+![Ordinox Desk Lite Visit History](assets/screenshots/visit-history.png)
 
-It includes:
+Client activity can be organized through a dedicated history.
 
-- Date filtering
-- Client filtering
-- Session Type filtering
-- Session-status filtering
-- Included-fee totals
-- Session breakdown
-- CSV export
-- Native Excel `.xlsx` export
-- PDF output
+Depending on the business, this can be used to review:
 
-The application distinguishes between a session with no saved fee and a session with a zero fee.
+- Previous visits
+- Purchases
+- Services
+- Prices
+- Notes
+- Client-specific information
+- Previous transactions or activity
 
-![ORDINOX Desk Therapist - Financial Overview](assets/screenshots/07-financial.png)
+The purpose is to make previous client interactions easy to find without relying on external spreadsheets or separate documents.
 
 ---
 
-## Statistics
+## Revenue & Price Management
 
-Practice Statistics provide an at-a-glance overview of activity for a selected period.
+![Ordinox Desk Lite Revenue](assets/screenshots/revenue.png)
 
-Available information can include:
+Ordinox Desk Lite includes tools for reviewing revenue-related information connected to client activity.
 
-- Sessions
-- Completed sessions
-- Client cancellations
-- Therapist cancellations
-- No-shows
-- Active Clients
-- New Clients
-- Included fees
-- Attendance
-- Session Types
-- Session trends
+The application can help organize:
 
-Statistics are calculated locally from the application's database.
+- Prices
+- Products
+- Services
+- Client-related transactions
+- Revenue information
+- Historical entries
+- Exportable financial information
 
-![ORDINOX Desk Therapist - Statistics](assets/screenshots/08-statistics.png)
+This provides a simple overview of business activity without requiring a complex accounting or ERP system.
 
 ---
 
-## Session Types
+## Products & Services
 
-Professionals can create their own Session Types with a default duration and suggested fee.
+![Ordinox Desk Lite Services](assets/screenshots/services.png)
 
-Session Types act as reusable defaults for new sessions and schedules.
+Products or services commonly used by the business can be organized and reused throughout the application.
 
-Changes to a Session Type do not retroactively alter values already saved on previous sessions.
+This helps:
 
-![ORDINOX Desk Therapist - Session Types](assets/screenshots/09-session-types.png)
+- Reduce repetitive data entry
+- Keep prices consistent
+- Organize frequently used products or services
+- Connect business activity with client history
+- Make day-to-day work faster
 
----
-
-## Client Timeline
-
-The Client Timeline provides a chronological view of important Client activity.
-
-Depending on available data and enabled features, it can include:
-
-- Sessions
-- Client notes
-- Session notes
-- Files
-- Treatment Plans
-- Goals
-- Tasks / Follow-ups
-- Other relevant Client events
-
-Results are loaded in bounded pages to keep the interface responsive even with long Client histories.
-
-![ORDINOX Desk Therapist - Client Timeline](assets/screenshots/10-timeline.png)
+The exact workflow can vary depending on the type of business using the application.
 
 ---
 
-## Notes & Reusable Content
+## Example Business Workflow
 
-ORDINOX includes structured note tools for both Clients and individual Sessions.
+A typical Ordinox Desk Lite workflow can include:
+
+1. Creating or locating a client
+2. Reviewing existing client information
+3. Recording information relevant to that client
+4. Selecting or adding a product or service
+5. Recording a price or transaction
+6. Reviewing previous client history
+7. Tracking related revenue
+8. Exporting or backing up stored information
+
+The optical-store example shown in this repository demonstrates one possible configuration.
+
+The same core concept can be adapted to other types of small businesses.
+
+---
+
+## Backup & Import
+
+![Ordinox Desk Lite Backup and Import](assets/screenshots/backup-import.png)
+
+Data portability and recovery are built into the application.
 
 Available functionality includes:
 
-- Rich Client notes
-- Rich Session notes
-- Controlled text formatting
-- Session Note Templates
-- Quick Snippets
-- Plain-text projection for search and reporting
+- Local data backup
+- JSON export
+- Data import
+- Backup restoration
+- Imported-data validation
+- Recovery of stored application information
 
-Notes use a controlled structured format rather than arbitrary raw HTML.
-
----
-
-## Optional Features
-
-ORDINOX is designed to keep the default experience focused and simple.
-
-Additional features can be enabled from Settings when they are useful.
-
-### Tasks / Follow-ups
-
-Tasks are things the professional needs to do.
-
-They can be related to a Client or used as general follow-ups.
-
-Tasks are optional and can be enabled or disabled from Settings.
-
-Disabling Tasks does **not** delete previously saved Task data.
-
-### Treatment Plans / Goals
-
-Treatment Plans describe what the professional is working toward with a Client.
-
-Goals are the individual therapeutic objectives or steps within that plan.
-
-Treatment Plans and Goals are optional and can be enabled or disabled from Settings.
-
-Disabling the feature does **not** delete existing Treatment Plans or Goals.
-
-This approach keeps the basic application simpler while allowing professionals to add more structured tools when they need them.
-
----
-
-## Managed Documents
-
-Client documents can be imported and managed locally through the application.
-
-The document workflow is designed around:
-
-- Local managed copies
-- Safe import
-- Missing-file detection
-- Recovery handling
-- Client-based organization
-
-The application avoids unnecessary full filesystem scanning during normal clean startup.
-
----
-
-## Search
-
-ORDINOX includes local Global Search functionality.
-
-Search can help locate relevant information across areas such as:
-
-- Clients
-- Sessions
-- Notes
-- Documents
-- Other indexed practice information
-
-Search operates locally and does not require a remote search service.
-
----
-
-## Backup & Restore
-
-Backup and Restore are important parts of the application.
-
-The backup system is designed to support:
-
-- Local backup creation
-- Database backup
-- Managed-document backup
-- Streaming archive creation
-- Backup validation
-- Restore staging
-- Restore validation
-- Recovery from interrupted restore operations
-- Forward migration of supported older backups
-
-The objective is to keep practice data portable and recoverable without relying on a cloud service.
-
----
-
-## Import & Export
-
-ORDINOX includes several data portability tools, including:
-
-- CSV Client import
-- Financial CSV export
-- Native Excel `.xlsx` financial export
-- Calendar `.ics` export
-- PDF generation
-- Local Backup and Restore
-
-Exports are generated locally from the application's stored data.
+This allows users to keep their own copies of important business data independently from the application installation.
 
 ---
 
 ## Local-First Architecture
 
-ORDINOX Desk Therapist is designed as a local-first Windows application.
+Ordinox Desk Lite is designed primarily for local operation on the user's Windows device.
 
-Normal operation does not require:
+For normal use:
 
-- A cloud account
-- A remote database server
-- Browser-based hosting
-- Continuous internet connectivity
-- External analytics or telemetry services
+- No remote backend is required
+- No cloud database is required
+- No cloud account is required
+- Application data is stored locally
+- Backup files can be created by the user
+- Existing data can be restored through the import workflow
+- Continuous internet connectivity is not required
 
-Normal practice data is intended to remain on the user's local Windows device.
+This makes the application suitable for businesses that prefer a straightforward standalone desktop solution.
 
 ---
 
 ## Windows PC & Tablet
 
-ORDINOX Desk Therapist is designed for:
+Ordinox Desk Lite runs as a standalone Windows application using **Tauri 2**.
+
+It is designed for use on:
 
 - Windows desktop computers
 - Windows laptops
 - Windows tablets
 
-The interface includes responsive behavior and zoom support so the application can remain practical across different Windows screen sizes.
+The interface is intended to remain practical across different Windows screen sizes.
 
 The application can be provided with **English and Greek interface support**.
 
@@ -356,13 +211,15 @@ The application can be provided with **English and Greek interface support**.
 
 ## Product Philosophy
 
-ORDINOX Desk Therapist is designed around a simple principle:
+Ordinox Desk Lite is designed around a simple idea:
 
-**keep the information and everyday tools of a private practice together without turning the application into an unnecessarily complex system.**
+**keep the information related to clients, products, services, prices, history and everyday business activity together in one practical application.**
 
-The core experience focuses on clients, scheduling, sessions, notes, records, finance and practice organization.
+It is intentionally lighter than a large ERP or CRM platform.
 
-Additional features can remain optional so each professional can keep the application as simple or as structured as they prefer.
+The goal is not to add unnecessary complexity, but to provide the tools that a small business actually needs.
+
+Different versions or configurations can include additional optional functionality depending on the needs of the business.
 
 ---
 
@@ -373,95 +230,103 @@ For future commercial releases, the intended model is straightforward:
 - One-time purchase
 - Local installation
 - No mandatory ongoing subscription to continue using the purchased version
-- Local management of normal application data
+- Local ownership of normal application data
 
-Additional optional features or tailored versions may be offered in the future depending on professional needs.
+Additional optional functionality or customized versions may be offered depending on the needs of the user or business.
+
+---
+
+## Data Export
+
+The application includes functionality for exporting stored information in practical formats.
+
+Depending on the workflow, exported information can include:
+
+- Client-related data
+- Revenue information
+- Spreadsheet-compatible files
+- Printable or PDF-ready output
+- JSON backup files
+
+These tools make it easier to archive, transfer or use information outside the application when required.
 
 ---
 
 ## Technology
 
-The application is built with:
+Ordinox Desk Lite is built using technologies including:
 
 - **Tauri 2**
 - **Rust**
-- **SQLite**
 - **Vanilla JavaScript**
 - **HTML5**
 - **CSS3**
+- **WebView local storage**
+- **JSON**
+- **CSV / spreadsheet-compatible exports**
+- **Windows desktop packaging**
 
-The Rust backend handles database operations, scheduling logic, files, backup and restore, imports, exports and other native desktop functionality.
+The application uses a web-based interface inside a native Windows desktop environment.
 
----
-
-## Performance & Reliability
-
-The application is designed around bounded database queries, local processing and on-demand operations.
-
-Development and regression testing includes scenarios involving:
-
-- Approximately 1,000 Clients
-- Tens of thousands of Sessions
-- Large local search indexes
-- Thousands of managed files
-- Long recurring-session histories
-
-Potentially expensive operations such as imports, exports, recurrence synchronization and filesystem recovery are designed to avoid unnecessary continuous background work.
+Tauri provides the desktop runtime and packaging layer, while the application interface and business logic are implemented primarily with HTML, CSS and JavaScript.
 
 ---
 
 ## Development Approach
 
-ORDINOX Desk Therapist is developed incrementally with an emphasis on preserving existing behavior and protecting user data.
+The application has been developed incrementally.
 
-The workflow includes:
+The development workflow includes:
 
-1. Reviewing existing behavior
-2. Planning the required change
-3. Implementing focused modifications
-4. Running regression tests
-5. Reviewing possible side effects
-6. Checking performance and data-safety implications
+1. Understanding the required business workflow
+2. Designing the appropriate feature
+3. Implementing focused changes
+4. Reviewing affected code
+5. Running and testing the application
+6. Checking existing functionality for regressions
 7. Refining the interface where necessary
+8. Avoiding unrelated changes
 
-Large rewrites are avoided unless there is a strong technical reason.
+This approach helps keep the application understandable and stable while functionality evolves.
 
 ---
 
 ## AI-Assisted Development
 
-AI-assisted software development is part of my workflow, including the use of **OpenAI Codex**.
+AI-assisted development tools, including **OpenAI Codex**, are part of my development workflow.
 
-AI tools are used for areas such as:
+They are used for tasks such as:
 
 - Existing code analysis
 - Feature implementation
 - Debugging
-- Regression investigation
+- Investigating bugs
 - Code refinement
-- Testing assistance
-- Performance review
-- Reviewing potential side effects
+- Reviewing possible side effects
+- Exploring implementation alternatives
+- Testing and validation assistance
 
-AI-generated changes are reviewed and tested incrementally rather than applied blindly.
+AI-generated changes are not applied blindly.
 
-The workflow combines AI-assisted implementation with manual verification, testing, debugging and product decisions.
+Changes are reviewed and tested incrementally, combined with manual verification, debugging and product decisions.
 
 ---
 
-## Privacy Note
+## Test Data & Privacy
 
-The screenshots in this repository contain **only fictitious demonstration data**.
+All names, phone numbers, prices, optical information, visits and other personal or business information visible in the screenshots are **fictional demonstration data**.
 
-No real Client, patient or therapy-practice information is included.
+They do not represent real clients or individuals.
+
+No real client data is included in this portfolio repository.
 
 ---
 
 ## Source Code
 
-The full production source code of ORDINOX Desk Therapist is maintained privately.
+The full production source code of Ordinox Desk Lite is maintained privately.
 
-This repository is intended solely as a **product showcase and portfolio presentation**, containing documentation and visual material demonstrating the application's functionality.
+This repository is intended as a **product showcase and portfolio presentation**, containing documentation and visual material demonstrating the application's functionality.
 
 The complete production source code is not included in this public repository.
 
@@ -469,11 +334,11 @@ The complete production source code is not included in this public repository.
 
 ## Project Status
 
-**Active development / pre-release.**
+**Functional Windows desktop software project.**
 
-ORDINOX Desk Therapist is currently in final product-development preparation before later security, packaging and commercial-release stages.
+Ordinox Desk Lite is a working application focused on practical client and small-business management.
 
-The core functional application is operational and continues to receive usability and product refinements.
+The product can continue to evolve with additional optional features and configurations for different professional or business needs.
 
 ---
 
