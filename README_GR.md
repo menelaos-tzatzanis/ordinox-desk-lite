@@ -1,4 +1,3 @@
-[ordinox-desk-lite_README_GR.md](https://github.com/user-attachments/files/32700850/ordinox-desk-lite_README_GR.md)
 # Ordinox Desk Lite
 
 [English](README.md) · [Ελληνικά](README_GR.md)
