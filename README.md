@@ -1,5 +1,7 @@
 # Ordinox Desk Lite
 
+[English](README.md) · [Ελληνικά](README_GR.md)
+
 **Local-first optical client and business management desktop application for Windows.**
 
 Ordinox Desk Lite is a desktop application designed for optical stores and small optical businesses that need a practical way to manage clients, prescriptions, visit history, services, revenue and local business data from a single interface.
